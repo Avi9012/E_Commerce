@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - property:
+      name: schemaName
+      value: ""
+  - include:
+      file: db/migrations/v1.0._create_orders_table.yaml
