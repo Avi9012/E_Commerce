@@ -7,7 +7,9 @@ git clone https://github.com/Avi9012/E_Commerce.git
 set ENVIRONMENT variables:- 
 
 DATABASE_NAME (Your MySql database name)
+
 DATABASE_USERNAME (Your MySql server username)
+
 DATABASE_PASSWORD (Your MySql server user password)
 
 run **.\gradlew build -x test** to build the project
