@@ -16,9 +16,9 @@ DATABASE_USERNAME (Your MySql server username)
 
 DATABASE_PASSWORD (Your MySql server user password)
 
-run **.\gradlew build -x test** to build the project
+run **.\gradlew build -x test** from repository root folder to build the project
 
-run **java -jar .\build\libs\MyECommerce-0.0.1-SNAPSHOT.jar** to start application
+run **java -jar .\build\libs\MyECommerce-0.0.1-SNAPSHOT.jar** from repository root folder to start application
 
 Example API request/response:-
 
