@@ -15,6 +15,6 @@ public interface OrderMapper {
     @Mapping(expression = "java(Arrays.asList(order.getItemIds().split(\",\")))", target = "itemIds")
     OrderModel mapToOrderModel(OrderEntity order);
 
-    @Mapping(expression = "java(String.join(\", \", order.getItemIds()))", target = "itemIds")
+    @Mapping(expression = "java(String.join(\",\", order.getItemIds()))", target = "itemIds")
     OrderEntity mapToOrderEntity(OrderModel order);
 }
