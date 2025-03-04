@@ -6,6 +6,10 @@ git clone https://github.com/Avi9012/E_Commerce.git
 
 set ENVIRONMENT variables:- 
 
+DATABASE_HOST (Your MySql database host name)
+
+DATABASE_PORT (Your MySql database port number)
+
 DATABASE_NAME (Your MySql database name)
 
 DATABASE_USERNAME (Your MySql server username)
